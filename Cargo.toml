@@ -1,0 +1,15 @@
+[package]
+name = "srcds-rs"
+version = "0.1.0"
+authors = ["Timo Reichl <thetredev@gmail.com>"]
+description = "SRCDS metaplugin which implements a C++/Rust bridge"
+edition = "2024"
+license = "MIT"
+publish = false
+repository = "https://github.com/thetredev/srcds-rs"
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cxx-build = "1.0"
