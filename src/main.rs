@@ -1,10 +1,7 @@
-#[cxx::bridge(namespace = "srcds::rs")]
-mod ffi {
-    // C++ types and signatures exposed to Rust.
-    unsafe extern "C++" {
-        include!("srcds-rs/srcds_rs.h");
-    }
-}
-
 fn main() {
+    println!("Getting Plugin instance from C++...");
+    let plugin = srcds::Plugin::get_instance();
+
+    println!("Calling Plugin::hello() from Rust:");
+    plugin.hello(30);
 }

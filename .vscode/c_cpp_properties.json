@@ -9,8 +9,10 @@
       "defines": [
       ],
       "includePath": [
-        "include",
-        "target/cxxbridge"
+        "srcds/include",
+        "vendor/hl2sdk/css/public",
+        "vendor/hl2sdk/css/public/tier0",
+        "vendor/hl2sdk/css/public/tier1"
       ]
     }
   ],

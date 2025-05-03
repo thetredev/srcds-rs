@@ -8,8 +8,7 @@ license = "MIT"
 publish = false
 repository = "https://github.com/thetredev/srcds-rs"
 
-[dependencies]
-cxx = "1.0"
+[workspace]
 
-[build-dependencies]
-cxx-build = "1.0"
+[dependencies]
+srcds = { path = "srcds" }
