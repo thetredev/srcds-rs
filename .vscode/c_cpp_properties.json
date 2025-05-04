@@ -5,14 +5,20 @@
       "intelliSenseMode": "linux-gcc-x64",
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "c17",
-      "cppStandard": "c++17",
+      "cppStandard": "gnu++17",
       "defines": [
+        "GNU",
+        "GNUC",
+        "LINUX",
+        "_LINUX",
+        "POSIX"
       ],
       "includePath": [
-        "srcds/include",
+        "include",
         "vendor/hl2sdk/css/public",
         "vendor/hl2sdk/css/public/tier0",
-        "vendor/hl2sdk/css/public/tier1"
+        "vendor/hl2sdk/css/public/tier1",
+        "target/i686-unknown-linux-gnu/cxxbridge"
       ]
     }
   ],
